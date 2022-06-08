@@ -18,3 +18,18 @@ git init
 4) Adding files into working tree
 
 git add #Name of the File#
+
+5) Commit your changes
+git commit -m "first commit"
+
+6) Add main branch 
+git branch -M main
+
+7) connecting our local repo to github we add origin
+git remote add origin 
+https://github.com/itasworkshop/C258_Repo.git
+
+8) push the changes
+git push -u origin main
+
+Give credentials if it asks
