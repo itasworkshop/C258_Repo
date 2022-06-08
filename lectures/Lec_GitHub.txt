@@ -1,0 +1,20 @@
+Environments
+
+Dev Env --> Test Env --> UAT/Demo Env --> Production Env
+
+GitHub
+Version control system
+
+cycle -->
+Reuirement(JIRA Ticket) --> take copy of code from git(checkout/clone) --> make my changes --> dev test your changes --> pull request --> lead reviews your code --> merge --> new feature branch has all changes from all team members --> test team takes new build from new branch --> test/green flag --> changes are availabe as new release
+
+Steps for GitHub
+1) Create the repository with same name as your github repo name
+2) put all your files
+3) Initialise git Repo uaing below command
+
+git init
+
+4) Adding files into working tree
+
+git add #Name of the File#

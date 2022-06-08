@@ -1,0 +1,36 @@
+Java  --> java 8
+open source programing language, oop (object oriented programing), compiled langauge, static typed language
+
+
+java (english) --> compiled --> machine lang
+
+example.java --> compilation(java compiler)--> example.class
+
+1) Compilation -- java, typescript
+2) Interpretation -- javascript, python
+
+python --> interpreted --> execute
+
+OOP --> style of programming where we consider everything as object
+
+object --> real world enetity
+
+object 	--> 1) properties/attributes/data
+			--> 2) Functionality/behaviour
+
+class --> template/blueprint for creating object
+
+1) what is java?
+2) what is compilation?, Is java compiled or trepreted language?
+3) what is JDK, JRE and JVM?
+4) what is oops?
+5) what is object?
+6) what is class?
+
+
+   *
+  ***
+ *****
+*******
+	**
+	**
