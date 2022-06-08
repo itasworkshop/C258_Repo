@@ -33,3 +33,9 @@ https://github.com/itasworkshop/C258_Repo.git
 git push -u origin main
 
 Give credentials if it asks
+
+
+Day to work-->
+1) git add
+2) git commit
+3) git push
