@@ -1,0 +1,17 @@
+OOPs
+Object Oriented Programing
+
+style of programming where we consider everything as object.
+
+Object --> Any real World entity
+1) state/properties
+2) Behaviour/Functionality
+
+Class --> Template/Blueprint for creating objects
+
+
+
+
+
+
+
