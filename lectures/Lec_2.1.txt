@@ -14,6 +14,24 @@ Class --> Template/Blueprint for creating objects
 3) Inheritance
 4) Polymorphism
 
+Questions
+
+What methods would a class that implements the java.lang.CharSequence interface have to implement?
+What is wrong with the following interface?
+public interface SomethingIsWrong {
+void aMethod(int aValue){
+System.out.println("Hi Mom");
+}
+}
+Fix the interface in question 2.
+Is the following interface valid?
+public interface Marker {
+}
+Exercises
+
+Write a class that implements the CharSequence interface found in the java.lang package. Your implementation should return the string backwards. Select one of the sentences from this book to use as the data. Write a small main method to test your class; make sure to call all four methods.
+Suppose you have written a time server that periodically notifies its clients of the current date and time. Write an interface the server could use to enforce a particular protocol on its clients.
+
 
 
 
