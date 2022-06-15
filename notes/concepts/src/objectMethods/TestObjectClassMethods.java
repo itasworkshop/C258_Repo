@@ -62,9 +62,11 @@ public class TestObjectClassMethods {
 
     public static void main(String[] args){
         Person p1 = new Person(101,"John");
-        Person p2 = new Person(102,"John");
+        Person p2 = new Person(101,"John");
 
-        //System.out.println(p1.equals(p2));
+        //Animal --> dog --> Bulldog
+        System.out.println(p1 == p2); //no meaningful equality
+        System.out.println(p1.equals(p2)); //we can give rule for equality
 
         System.out.println(p1);
         System.out.println(p2);
