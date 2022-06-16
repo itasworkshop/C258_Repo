@@ -16,3 +16,9 @@ Banking Backend App
 1) Cards expiry search everyday
 2) cards upgrade functionality
 
+3) Card creation --> unique
+
+For sorting collection objects
+1) Comparator
+2) Comparable
+
