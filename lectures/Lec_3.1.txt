@@ -1,0 +1,18 @@
+Collection Frameowrk --> data structure implementation of objects
+
+1) List --> list of items duplicates are allowed
+2) Set --> duplicate are not allowed
+3) Map --> key-value pair
+4) Queue --> one after another
+
+1) List 
+i) ArrayList --> fast iteration
+ii) LinkedList --> fater insertion and deletion
+iii) Vector --> thread safety
+
+
+Example:
+Banking Backend App
+1) Cards expiry search everyday
+2) cards upgrade functionality
+
