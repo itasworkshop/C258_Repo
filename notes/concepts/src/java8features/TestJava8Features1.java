@@ -7,7 +7,8 @@ import java.util.Collections;
 //Java 8 Features
 //1) Lambda Expression --> implementation of functional interface
 //Functional interface --> interface with exactly one method to implement
-//2) Stream API -->
+//2) Stream API --> to work with stream od data
+//3) Interface --> default methods static
 
 class Student6{
     private int id;
