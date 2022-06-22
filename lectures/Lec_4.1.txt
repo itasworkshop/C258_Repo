@@ -1,0 +1,35 @@
+MySQL Database
+
+Data --> useful information
+
+DBMS - Database Management System
+Database --> organisation structure
+
+RDBMS -Relational Database Management System
+we are organising our data in terms of table
+table --> rows and columns
+
+Example: -
+collage DBMS
+
+Departments
+id		Dept_Name		Location
+111	computer			Block-B
+222	civil				Block-C
+333	mechanical		Block-D
+
+Students
+st_id		Name		Subject		Dept
+101		Rajesh	Java			111
+102		Tom		Motor			333
+103		Harry		Java			111
+104		John		Arts			888
+
+Relational --> one table is related to another table using some common column, dept columni n students table is mapped to id column in Departments table, we can not have dept record in students table which does not exist in Departments table.
+
+SQL --> Structured Query Language
+
+
+
+
+
