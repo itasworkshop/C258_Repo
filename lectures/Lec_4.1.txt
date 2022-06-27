@@ -29,7 +29,27 @@ Relational --> one table is related to another table using some common column, d
 
 SQL --> Structured Query Language
 
+1) What is join?
+displaying data from multiple tables
+2) Inner join, natural join , outer join, right outer join, left outer join, self join
+3) 
 
+cross join --> no condition, cross
+inner join --> common values after mapping
+outer join --> extra values
+left outer join --> extra values from left hand side table in query
+right outer join --> extra values from right hand side table in query
+self join --> join of the table with itself
+
+1) Tell me number of rows for each join?
+A			B
+1			0
+1			1
+0			1
+1			0
+0			1
+
+inner join --> 5 records
 
 
 

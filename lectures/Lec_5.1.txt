@@ -1,0 +1,14 @@
+Build Tool --> Maven
+
+java file --> comiplation --> class file
+
+project --> JAR/WAR file
+
+builds deliverable --> builds jar/war
+
+helps full sdlc cycle --> 
+1) dependency --> maven helps us
+2) comiplation
+3) test case cycle
+4) final build --> JAR
+5) helps us to create structure
