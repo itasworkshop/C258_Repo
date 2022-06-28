@@ -1,0 +1,43 @@
+Web Development using java
+
+example:- www.facebook.com
+
+client( browser) --> request --> domain name( ip address of facebook server) --> response --> client
+
+client --> who is requesting
+server --> who is entertaining request coming from client
+
+spring framework
+spring boot
+
+MVC --> Model-View-Controller
+Model --> Database Table/Entity/Pojo
+View --> user facing layer
+Controller --> /home/profile --> response should be generated
+
+
+Microservices architecture --> built using multiple services for submodule
+
+Framework --> Minimum common work which every web application will use --> lib(classes/methods) already available --> focus more on our business logic
+
+Spring framework
+IOC --> inversion of control
+
+object --> new Pizza();
+
+who will create my object --> IOC container
+ --> bean --> Loose coupling
+
+Annotations
+1) @SpringBootApplication
+Indicates a configuration class that declares one or more @Bean methods and also triggers auto-configuration and component scanning. This is a convenienceannotation that is equivalent to declaring @Configuration, @EnableAutoConfiguration and @ComponentScan.
+
+2) @RestController
+3)	@RequestMapping("/")
+4) @ResponseBody
+
+
+
+
+
+
