@@ -36,6 +36,13 @@ Indicates a configuration class that declares one or more @Bean methods and also
 3)	@RequestMapping("/")
 4) @ResponseBody
 
+API --> Application programming interface
+the way one app talks to another
+
+frontend <---> backend
+
+/students --> {}
+
 
 
 
