@@ -1,0 +1,42 @@
+Angular Framework
+
+Javascript --> is to bring more interactivity to the websites, client side, java name has nothing with language java
+
+console.log("hello world")
+
+var x = 10;
+
+console.log(x);
+
+x = "Praveen"
+
+console.log(x);
+
+y = true;
+
+console.log(y);
+
+myarr = [11,22,3,44,5];
+
+console.log(myarr.length);
+console.log(myarr.map(x => x+5));
+
+console.log(myarr.filter(x => x%2==0));
+
+console.log(myarr.reduce((x,y) => x+y));
+
+user = {id:101,name:"Rajesh"}
+
+console.log(user);
+
+
+function add(a,b){
+  console.log(a+b);
+}
+
+result = add(10,20);
+
+console.log(result);
+
+ECMA2015 /ECMA6 --> it brought many standards to JS language
+we have many changes in syntax java like syntax for creating classes and objects.
