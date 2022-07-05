@@ -1,0 +1,8 @@
+<h1>Welcome to class  {{ title2 }}!</h1>
+
+<h2>Students List!</h2>
+<div *ngFor="let student of mystudents">
+  <h3>{{student.id}}</h3><h3>{{student.name}}</h3>
+  <p>{{student.intro}}</p>
+  <p>{{student.subject}}</p>
+</div>

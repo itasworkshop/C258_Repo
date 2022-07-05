@@ -40,3 +40,26 @@ console.log(result);
 
 ECMA2015 /ECMA6 --> it brought many standards to JS language
 we have many changes in syntax java like syntax for creating classes and objects.
+
+Typescript
+javascript + extra(type,better oop,scale)
+compiled --> javascript code
+
+Angular Setup
+1) download node js.
+node -v
+2) verify npm
+npm -v
+3) download angular cli
+npm install -g @angular/cli
+4) lets create sample project
+ng new myapp
+5) run the app using
+ng serve --open
+
+
+Component
+basic building block of any angular application
+app.component.ts + app.component.html + app.component.css +app.component.spec.ts
+
+root component --> child component
