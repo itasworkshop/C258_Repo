@@ -1,0 +1,9 @@
+<p>student-alerts works!</p>
+
+<p *ngIf=" student && student.subject">
+    {{student.intro}}
+    <button type="button"
+        (click)="notify.emit()"
+    >
+    Notify Me!</button>
+</p>

@@ -2,7 +2,11 @@
 
 <h2>Students List!</h2>
 <div *ngFor="let student of mystudents">
-  <h3>{{student.id}}</h3><h3>{{student.name}}</h3>
-  <p>{{student.intro}}</p>
-  <p>{{student.subject}}</p>
+  <h3>{{student.name}}
+    <a [title]="student.intro +' click here for more info'">
+    </a>
+  </h3>
+
+  <app-student-alerts [student]="student" (notify)="onNotify(student)"></app-student-alerts>
 </div>
+

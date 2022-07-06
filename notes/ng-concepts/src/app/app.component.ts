@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { students } from './students';
+import { Student, students } from './students';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +11,14 @@ export class AppComponent {
   title2:string = 'CS258';
 
   mystudents = students;
+  resultstudent = null;
+
+
+  myIntro(){
+    alert("Hwy this is working!");
+  }
+
+  onNotify(student:Student){
+    alert('Yes you scored good grade, you will email.'+student.name);
+  }
 }

@@ -19,7 +19,7 @@ export const students = [
         name:'Tom',
         contact: 12345,
         intro: 'This is Tom, i am a good student!',
-        subject: ['cs','ec','it','ce']
+        subject: ['cs','ec','it']
     },
     {
         id:103,
