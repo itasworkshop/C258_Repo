@@ -7,8 +7,6 @@ import { Student, students } from './students';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title2:string = 'CS258';
-  /*
   title1 = 'Title 1';
   title2:string = 'CS258';
 
@@ -23,5 +21,4 @@ export class AppComponent {
   onNotify(student:Student){
     alert('Yes you scored good grade, you will email.'+student.name);
   }
-  */
 }

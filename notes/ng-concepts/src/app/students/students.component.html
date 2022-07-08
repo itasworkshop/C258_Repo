@@ -1,0 +1,14 @@
+
+<div class="container" id="containers">
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let student of mystudents" (click)="onSelect(student)">
+        <span class="badge badge-dark">{{student.id}}</span>
+        <span class="badge badge-light">{{student.name}}</span>
+    </li>
+</ul>
+
+
+</div>
+<hr class="featurette-divider">
+
+<app-student-detail [student]="selectedStudent"></app-student-detail>
