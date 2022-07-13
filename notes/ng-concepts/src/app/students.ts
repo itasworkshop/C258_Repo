@@ -6,6 +6,13 @@ export interface Student{
     subject: Array<string>;
 }
 
+export class User{
+    constructor(
+        public id:number,
+        public name:string
+    ){}
+}
+
 export const students = [
     {
         id:101,
