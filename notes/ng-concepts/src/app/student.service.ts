@@ -19,9 +19,7 @@ export class StudentService {
       private http: HttpClient) 
   { }
 
-  ngOnInit(){
-    this.getStudents();
-  }
+  
 
   getStudents (): Observable<Student[]> {
     return this.http.get<Student[]>(this.studentsUrl);
